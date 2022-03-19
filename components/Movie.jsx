@@ -49,6 +49,7 @@ const Movie = ({ data }) => {
                 className="object-cover"
                 height={300}
                 width={300}
+                alt={Title}
               />
               <div className="flex absolute flex-col ml-7 align-middle justify-center">
                 <h2 className="bg-gray p-1 rounded-sm bg-opacity-90 md:text-2xl text-xl font-bold text-black mt-16">
