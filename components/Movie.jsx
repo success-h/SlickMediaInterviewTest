@@ -35,7 +35,7 @@ const Movie = ({ data }) => {
   return (
     <div className="py-12 mx-auto max-w-screen-xl pl-[28px]  md:px-[67px]">
       <div className="flex justify-start items-center pb-5">
-        <h2 className="text-start text-black text-gray-100 text-xl font-bold"></h2>
+        <h2 className="text-start text-black text-gray-100 text-xl font-bold">Movies</h2>
       </div>
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex">
